@@ -1,0 +1,30 @@
+8月 28, 2021 4:30:13 下午 hudson.remoting.jnlp.GuiListener$1 run
+严重: Handshake error.
+io.jenkins.remoting.shaded.javax.websocket.DeploymentException: Handshake error.
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.client.ClientManager$3$1.run(ClientManager.java:658)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.client.ClientManager$3.run(ClientManager.java:696)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.client.ClientManager$SameThreadExecutorService.execute(ClientManager.java:849)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.client.ClientManager.connectToServer(ClientManager.java:493)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.client.ClientManager.connectToServer(ClientManager.java:337)
+	at hudson.remoting.Engine.runWebSocket(Engine.java:657)
+	at hudson.remoting.Engine.run(Engine.java:496)
+Caused by: io.jenkins.remoting.shaded.org.glassfish.tyrus.core.HandshakeException: Response code was not 101: 500.
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.client.TyrusClientEngine.processResponse(TyrusClientEngine.java:299)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.ClientFilter.processRead(ClientFilter.java:167)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.Filter.onRead(Filter.java:111)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.Filter.onRead(Filter.java:113)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.Filter.onRead(Filter.java:113)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:294)
+	at io.jenkins.remoting.shaded.org.glassfish.tyrus.container.jdk.client.TransportFilter$4.completed(TransportFilter.java:278)
+	at sun.nio.ch.Invoker.invokeUnchecked(Unknown Source)
+	at sun.nio.ch.Invoker.invokeUnchecked(Unknown Source)
+	at sun.nio.ch.WindowsAsynchronousSocketChannelImpl$ReadTask.completed(Unknown Source)
+	at sun.nio.ch.Iocp$EventHandlerTask.run(Unknown Source)
+	at sun.nio.ch.AsynchronousChannelGroupImpl$1.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+

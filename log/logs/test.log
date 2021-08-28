@@ -1,0 +1,6 @@
+test
+2021-08-28 10:49:29,228 - user_log.py[line:12] - DEBUG: this is a debug message
+2021-08-28 10:52:45,337 - user_log.py[line:19] - DEBUG: this is a debug message
+2021-08-28 10:55:54,943 - user_log.py[line:19] - DEBUG: this is a debug message
+2021-08-28 10:56:52,518 - user_log.py[line:19] - DEBUG: this is a debug message
+2021-08-28 10:57:38,042 - user_log.py[line:20] - DEBUG: this is a debug message

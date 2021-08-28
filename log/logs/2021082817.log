@@ -1,0 +1,470 @@
+2021-08-28 17:10:48,151 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53788/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-08-28 17:10:48,151 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:53788
+2021-08-28 17:10:53,581 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53788 "POST /session HTTP/1.1" 200 658
+2021-08-28 17:10:53,582 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:10:53,582 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53788/session/39c2c15a7a9b57283c15d281684a914d/url {"url": "http://www.5itest.cn/register"}
+2021-08-28 17:11:10,525 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53788 "POST /session/39c2c15a7a9b57283c15d281684a914d/url HTTP/1.1" 200 14
+2021-08-28 17:11:10,526 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:10,526 - register_ddt_case.py[line:21] - DEBUG: test_register_1___19198528521_163_com____19198528521____password____code1____code_text_error__
+2021-08-28 17:11:10,527 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53788/session/39c2c15a7a9b57283c15d281684a914d/element {"using": "css selector", "value": "[id=\"register_email\"]"}
+2021-08-28 17:11:10,536 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53788 "POST /session/39c2c15a7a9b57283c15d281684a914d/element HTTP/1.1" 200 88
+2021-08-28 17:11:10,536 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:10,536 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53788/session/39c2c15a7a9b57283c15d281684a914d/element/17917ac6-d310-4539-a68c-e489e69b3548/value {"text": "19198528521@163.com", "value": ["1", "9", "1", "9", "8", "5", "2", "8", "5", "2", "1", "@", "1", "6", "3", ".", "c", "o", "m"], "id": "17917ac6-d310-4539-a68c-e489e69b3548"}
+2021-08-28 17:11:10,598 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53788 "POST /session/39c2c15a7a9b57283c15d281684a914d/element/17917ac6-d310-4539-a68c-e489e69b3548/value HTTP/1.1" 200 14
+2021-08-28 17:11:10,598 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:10,599 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53788/session/39c2c15a7a9b57283c15d281684a914d/element {"using": "css selector", "value": "[id=\"register_nickname\"]"}
+2021-08-28 17:11:10,607 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53788 "POST /session/39c2c15a7a9b57283c15d281684a914d/element HTTP/1.1" 200 88
+2021-08-28 17:11:10,607 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:10,607 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53788/session/39c2c15a7a9b57283c15d281684a914d/element/09b4aac6-0c82-4634-84a5-fdc33bf06073/value {"text": "19198528521", "value": ["1", "9", "1", "9", "8", "5", "2", "8", "5", "2", "1"], "id": "09b4aac6-0c82-4634-84a5-fdc33bf06073"}
+2021-08-28 17:11:10,793 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53788 "POST /session/39c2c15a7a9b57283c15d281684a914d/element/09b4aac6-0c82-4634-84a5-fdc33bf06073/value HTTP/1.1" 200 14
+2021-08-28 17:11:10,793 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:10,794 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53788/session/39c2c15a7a9b57283c15d281684a914d/element {"using": "css selector", "value": "[id=\"register_password\"]"}
+2021-08-28 17:11:10,801 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53788 "POST /session/39c2c15a7a9b57283c15d281684a914d/element HTTP/1.1" 200 88
+2021-08-28 17:11:10,802 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:10,802 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53788/session/39c2c15a7a9b57283c15d281684a914d/element/0e5fada0-1fbc-4a76-882e-c793ddadb1a6/value {"text": "password", "value": ["p", "a", "s", "s", "w", "o", "r", "d"], "id": "0e5fada0-1fbc-4a76-882e-c793ddadb1a6"}
+2021-08-28 17:11:10,845 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53788 "POST /session/39c2c15a7a9b57283c15d281684a914d/element/0e5fada0-1fbc-4a76-882e-c793ddadb1a6/value HTTP/1.1" 200 14
+2021-08-28 17:11:10,845 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:10,846 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53788/session/39c2c15a7a9b57283c15d281684a914d/element {"using": "css selector", "value": "[id=\"captcha_code\"]"}
+2021-08-28 17:11:10,853 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53788 "POST /session/39c2c15a7a9b57283c15d281684a914d/element HTTP/1.1" 200 88
+2021-08-28 17:11:10,853 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:10,853 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53788/session/39c2c15a7a9b57283c15d281684a914d/element/74950e67-cfea-42ef-a356-ae4da737eb86/value {"text": "code1", "value": ["c", "o", "d", "e", "1"], "id": "74950e67-cfea-42ef-a356-ae4da737eb86"}
+2021-08-28 17:11:10,887 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53788 "POST /session/39c2c15a7a9b57283c15d281684a914d/element/74950e67-cfea-42ef-a356-ae4da737eb86/value HTTP/1.1" 200 14
+2021-08-28 17:11:10,887 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:10,887 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53788/session/39c2c15a7a9b57283c15d281684a914d/element {"using": "css selector", "value": "[id=\"register-btn\"]"}
+2021-08-28 17:11:10,894 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53788 "POST /session/39c2c15a7a9b57283c15d281684a914d/element HTTP/1.1" 200 88
+2021-08-28 17:11:10,895 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:10,895 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53788/session/39c2c15a7a9b57283c15d281684a914d/element/e90c5dca-4809-46d6-8dad-38e944ac4517/click {"id": "e90c5dca-4809-46d6-8dad-38e944ac4517"}
+2021-08-28 17:11:11,078 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53788 "POST /session/39c2c15a7a9b57283c15d281684a914d/element/e90c5dca-4809-46d6-8dad-38e944ac4517/click HTTP/1.1" 200 14
+2021-08-28 17:11:11,078 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:11,078 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53788/session/39c2c15a7a9b57283c15d281684a914d/element {"using": "css selector", "value": "[id=\"captcha_code-error\"]"}
+2021-08-28 17:11:11,087 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53788 "POST /session/39c2c15a7a9b57283c15d281684a914d/element HTTP/1.1" 200 88
+2021-08-28 17:11:11,087 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:11,087 - remote_connection.py[line:388] - DEBUG: GET http://127.0.0.1:53788/session/39c2c15a7a9b57283c15d281684a914d/element/11861474-f2d1-4778-b2c3-297d4f5c3cd1/text {"id": "11861474-f2d1-4778-b2c3-297d4f5c3cd1"}
+2021-08-28 17:11:11,097 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53788 "GET /session/39c2c15a7a9b57283c15d281684a914d/element/11861474-f2d1-4778-b2c3-297d4f5c3cd1/text HTTP/1.1" 200 27
+2021-08-28 17:11:11,097 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:16,098 - remote_connection.py[line:388] - DEBUG: DELETE http://127.0.0.1:53788/session/39c2c15a7a9b57283c15d281684a914d/window {}
+2021-08-28 17:11:16,139 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53788 "DELETE /session/39c2c15a7a9b57283c15d281684a914d/window HTTP/1.1" 200 12
+2021-08-28 17:11:16,139 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:16,678 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53839/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-08-28 17:11:16,678 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:53839
+2021-08-28 17:11:21,680 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53839 "POST /session HTTP/1.1" 200 659
+2021-08-28 17:11:21,681 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:21,681 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53839/session/3c08f5969a620338bd492e2bf6ac0b0f/url {"url": "http://www.5itest.cn/register"}
+2021-08-28 17:11:28,990 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53839 "POST /session/3c08f5969a620338bd492e2bf6ac0b0f/url HTTP/1.1" 200 14
+2021-08-28 17:11:28,990 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:28,990 - register_ddt_case.py[line:21] - DEBUG: test_register_2___163_com____19198528521____password____code1____user_email_error__
+2021-08-28 17:11:28,991 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53839/session/3c08f5969a620338bd492e2bf6ac0b0f/element {"using": "css selector", "value": "[id=\"register_email\"]"}
+2021-08-28 17:11:29,787 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53839 "POST /session/3c08f5969a620338bd492e2bf6ac0b0f/element HTTP/1.1" 200 88
+2021-08-28 17:11:29,787 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:29,787 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53839/session/3c08f5969a620338bd492e2bf6ac0b0f/element/92271b0f-f1ed-42f0-bb54-9cbde7741f1a/value {"text": "163.com", "value": ["1", "6", "3", ".", "c", "o", "m"], "id": "92271b0f-f1ed-42f0-bb54-9cbde7741f1a"}
+2021-08-28 17:11:35,012 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53839 "POST /session/3c08f5969a620338bd492e2bf6ac0b0f/element/92271b0f-f1ed-42f0-bb54-9cbde7741f1a/value HTTP/1.1" 200 14
+2021-08-28 17:11:35,012 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:35,013 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53839/session/3c08f5969a620338bd492e2bf6ac0b0f/element {"using": "css selector", "value": "[id=\"register_nickname\"]"}
+2021-08-28 17:11:35,809 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53839 "POST /session/3c08f5969a620338bd492e2bf6ac0b0f/element HTTP/1.1" 200 88
+2021-08-28 17:11:35,810 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:35,810 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53839/session/3c08f5969a620338bd492e2bf6ac0b0f/element/54c309b4-e9ab-44ff-87d3-28e5b545ed92/value {"text": "19198528521", "value": ["1", "9", "1", "9", "8", "5", "2", "8", "5", "2", "1"], "id": "54c309b4-e9ab-44ff-87d3-28e5b545ed92"}
+2021-08-28 17:11:42,327 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53839 "POST /session/3c08f5969a620338bd492e2bf6ac0b0f/element/54c309b4-e9ab-44ff-87d3-28e5b545ed92/value HTTP/1.1" 200 14
+2021-08-28 17:11:42,327 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:42,327 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53839/session/3c08f5969a620338bd492e2bf6ac0b0f/element {"using": "css selector", "value": "[id=\"register_password\"]"}
+2021-08-28 17:11:43,118 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53839 "POST /session/3c08f5969a620338bd492e2bf6ac0b0f/element HTTP/1.1" 200 88
+2021-08-28 17:11:43,118 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:43,118 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53839/session/3c08f5969a620338bd492e2bf6ac0b0f/element/61170e6b-b994-49b8-8025-1e39f2417c33/value {"text": "password", "value": ["p", "a", "s", "s", "w", "o", "r", "d"], "id": "61170e6b-b994-49b8-8025-1e39f2417c33"}
+2021-08-28 17:11:44,173 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53839 "POST /session/3c08f5969a620338bd492e2bf6ac0b0f/element/61170e6b-b994-49b8-8025-1e39f2417c33/value HTTP/1.1" 200 14
+2021-08-28 17:11:44,173 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:44,173 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53839/session/3c08f5969a620338bd492e2bf6ac0b0f/element {"using": "css selector", "value": "[id=\"captcha_code\"]"}
+2021-08-28 17:11:44,181 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53839 "POST /session/3c08f5969a620338bd492e2bf6ac0b0f/element HTTP/1.1" 200 88
+2021-08-28 17:11:44,181 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:44,181 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53839/session/3c08f5969a620338bd492e2bf6ac0b0f/element/ce4e556d-714b-480e-b586-a1ab01af0db3/value {"text": "code1", "value": ["c", "o", "d", "e", "1"], "id": "ce4e556d-714b-480e-b586-a1ab01af0db3"}
+2021-08-28 17:11:44,216 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53839 "POST /session/3c08f5969a620338bd492e2bf6ac0b0f/element/ce4e556d-714b-480e-b586-a1ab01af0db3/value HTTP/1.1" 200 14
+2021-08-28 17:11:44,217 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:44,217 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53839/session/3c08f5969a620338bd492e2bf6ac0b0f/element {"using": "css selector", "value": "[id=\"register-btn\"]"}
+2021-08-28 17:11:44,225 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53839 "POST /session/3c08f5969a620338bd492e2bf6ac0b0f/element HTTP/1.1" 200 88
+2021-08-28 17:11:44,225 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:44,225 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53839/session/3c08f5969a620338bd492e2bf6ac0b0f/element/e3d92284-7d0b-4e5c-b8ec-9040e8a3fb11/click {"id": "e3d92284-7d0b-4e5c-b8ec-9040e8a3fb11"}
+2021-08-28 17:11:44,481 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53839 "POST /session/3c08f5969a620338bd492e2bf6ac0b0f/element/e3d92284-7d0b-4e5c-b8ec-9040e8a3fb11/click HTTP/1.1" 200 14
+2021-08-28 17:11:44,481 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:44,482 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53839/session/3c08f5969a620338bd492e2bf6ac0b0f/element {"using": "css selector", "value": "[id=\"register_email-error\"]"}
+2021-08-28 17:11:44,491 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53839 "POST /session/3c08f5969a620338bd492e2bf6ac0b0f/element HTTP/1.1" 200 88
+2021-08-28 17:11:44,492 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:44,492 - remote_connection.py[line:388] - DEBUG: GET http://127.0.0.1:53839/session/3c08f5969a620338bd492e2bf6ac0b0f/element/ff3b9015-1482-4ace-8046-944ec88f54eb/text {"id": "ff3b9015-1482-4ace-8046-944ec88f54eb"}
+2021-08-28 17:11:44,501 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53839 "GET /session/3c08f5969a620338bd492e2bf6ac0b0f/element/ff3b9015-1482-4ace-8046-944ec88f54eb/text HTTP/1.1" 200 48
+2021-08-28 17:11:44,502 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:49,502 - remote_connection.py[line:388] - DEBUG: DELETE http://127.0.0.1:53839/session/3c08f5969a620338bd492e2bf6ac0b0f/window {}
+2021-08-28 17:11:49,544 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53839 "DELETE /session/3c08f5969a620338bd492e2bf6ac0b0f/window HTTP/1.1" 200 12
+2021-08-28 17:11:49,545 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:50,093 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53889/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-08-28 17:11:50,093 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:53889
+2021-08-28 17:11:54,793 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53889 "POST /session HTTP/1.1" 200 658
+2021-08-28 17:11:54,794 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:11:54,794 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53889/session/0a55246497554d73c707e8ffd96e6b55/url {"url": "http://www.5itest.cn/register"}
+2021-08-28 17:12:04,228 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53889 "POST /session/0a55246497554d73c707e8ffd96e6b55/url HTTP/1.1" 200 14
+2021-08-28 17:12:04,228 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:12:04,228 - register_ddt_case.py[line:21] - DEBUG: test_register_3___19198528521_163_com____19198528521____password____code1____user_email_error__
+2021-08-28 17:12:04,228 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53889/session/0a55246497554d73c707e8ffd96e6b55/element {"using": "css selector", "value": "[id=\"register_email\"]"}
+2021-08-28 17:12:04,236 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53889 "POST /session/0a55246497554d73c707e8ffd96e6b55/element HTTP/1.1" 200 88
+2021-08-28 17:12:04,236 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:12:04,236 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53889/session/0a55246497554d73c707e8ffd96e6b55/element/9c0f274f-27e3-4b96-bb27-c64ccc5c5453/value {"text": "19198528521@163.com", "value": ["1", "9", "1", "9", "8", "5", "2", "8", "5", "2", "1", "@", "1", "6", "3", ".", "c", "o", "m"], "id": "9c0f274f-27e3-4b96-bb27-c64ccc5c5453"}
+2021-08-28 17:12:04,301 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53889 "POST /session/0a55246497554d73c707e8ffd96e6b55/element/9c0f274f-27e3-4b96-bb27-c64ccc5c5453/value HTTP/1.1" 200 14
+2021-08-28 17:12:04,301 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:12:04,302 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53889/session/0a55246497554d73c707e8ffd96e6b55/element {"using": "css selector", "value": "[id=\"register_nickname\"]"}
+2021-08-28 17:12:04,310 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53889 "POST /session/0a55246497554d73c707e8ffd96e6b55/element HTTP/1.1" 200 88
+2021-08-28 17:12:04,310 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:12:04,310 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53889/session/0a55246497554d73c707e8ffd96e6b55/element/9e6d5c84-47ff-4450-aba2-ed097b55f7b5/value {"text": "19198528521", "value": ["1", "9", "1", "9", "8", "5", "2", "8", "5", "2", "1"], "id": "9e6d5c84-47ff-4450-aba2-ed097b55f7b5"}
+2021-08-28 17:12:04,521 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53889 "POST /session/0a55246497554d73c707e8ffd96e6b55/element/9e6d5c84-47ff-4450-aba2-ed097b55f7b5/value HTTP/1.1" 200 14
+2021-08-28 17:12:04,521 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:12:04,522 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53889/session/0a55246497554d73c707e8ffd96e6b55/element {"using": "css selector", "value": "[id=\"register_password\"]"}
+2021-08-28 17:12:04,529 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53889 "POST /session/0a55246497554d73c707e8ffd96e6b55/element HTTP/1.1" 200 88
+2021-08-28 17:12:04,530 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:12:04,530 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53889/session/0a55246497554d73c707e8ffd96e6b55/element/a68f227f-cf9d-4e45-b44f-a91ef8530859/value {"text": "password", "value": ["p", "a", "s", "s", "w", "o", "r", "d"], "id": "a68f227f-cf9d-4e45-b44f-a91ef8530859"}
+2021-08-28 17:12:04,574 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53889 "POST /session/0a55246497554d73c707e8ffd96e6b55/element/a68f227f-cf9d-4e45-b44f-a91ef8530859/value HTTP/1.1" 200 14
+2021-08-28 17:12:04,574 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:12:04,574 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53889/session/0a55246497554d73c707e8ffd96e6b55/element {"using": "css selector", "value": "[id=\"captcha_code\"]"}
+2021-08-28 17:12:04,582 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53889 "POST /session/0a55246497554d73c707e8ffd96e6b55/element HTTP/1.1" 200 88
+2021-08-28 17:12:04,582 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:12:04,582 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53889/session/0a55246497554d73c707e8ffd96e6b55/element/0b9e5f8a-d13d-4ad9-a996-6e03e98bc771/value {"text": "code1", "value": ["c", "o", "d", "e", "1"], "id": "0b9e5f8a-d13d-4ad9-a996-6e03e98bc771"}
+2021-08-28 17:12:04,615 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53889 "POST /session/0a55246497554d73c707e8ffd96e6b55/element/0b9e5f8a-d13d-4ad9-a996-6e03e98bc771/value HTTP/1.1" 200 14
+2021-08-28 17:12:04,615 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:12:04,616 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53889/session/0a55246497554d73c707e8ffd96e6b55/element {"using": "css selector", "value": "[id=\"register-btn\"]"}
+2021-08-28 17:12:04,624 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53889 "POST /session/0a55246497554d73c707e8ffd96e6b55/element HTTP/1.1" 200 88
+2021-08-28 17:12:04,624 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:12:04,624 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53889/session/0a55246497554d73c707e8ffd96e6b55/element/1ea52487-3478-4013-b2bb-f60cdc2d2e28/click {"id": "1ea52487-3478-4013-b2bb-f60cdc2d2e28"}
+2021-08-28 17:12:04,784 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53889 "POST /session/0a55246497554d73c707e8ffd96e6b55/element/1ea52487-3478-4013-b2bb-f60cdc2d2e28/click HTTP/1.1" 200 14
+2021-08-28 17:12:04,785 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:12:04,785 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53889/session/0a55246497554d73c707e8ffd96e6b55/element {"using": "css selector", "value": "[id=\"register_email-error\"]"}
+2021-08-28 17:12:04,793 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53889 "POST /session/0a55246497554d73c707e8ffd96e6b55/element HTTP/1.1" 404 1064
+2021-08-28 17:12:04,794 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:12:09,795 - remote_connection.py[line:388] - DEBUG: GET http://127.0.0.1:53889/session/0a55246497554d73c707e8ffd96e6b55/screenshot {}
+2021-08-28 17:12:10,010 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53889 "GET /session/0a55246497554d73c707e8ffd96e6b55/screenshot HTTP/1.1" 200 40436
+2021-08-28 17:12:10,011 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:12:10,012 - remote_connection.py[line:388] - DEBUG: DELETE http://127.0.0.1:53889/session/0a55246497554d73c707e8ffd96e6b55/window {}
+2021-08-28 17:12:10,060 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53889 "DELETE /session/0a55246497554d73c707e8ffd96e6b55/window HTTP/1.1" 200 12
+2021-08-28 17:12:10,060 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:03,975 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53968/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-08-28 17:13:03,976 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:53968
+2021-08-28 17:13:08,550 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53968 "POST /session HTTP/1.1" 200 658
+2021-08-28 17:13:08,551 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:08,551 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53968/session/f484b439a8f16be0dcd405afce27c863/url {"url": "http://www.5itest.cn/register"}
+2021-08-28 17:13:20,359 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53968 "POST /session/f484b439a8f16be0dcd405afce27c863/url HTTP/1.1" 200 14
+2021-08-28 17:13:20,360 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:20,360 - register_ddt_case.py[line:21] - DEBUG: test_register_1___19198528521_163_com____19198528521____password____code1____code_text_error__
+2021-08-28 17:13:20,360 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53968/session/f484b439a8f16be0dcd405afce27c863/element {"using": "css selector", "value": "[id=\"register_email\"]"}
+2021-08-28 17:13:20,370 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53968 "POST /session/f484b439a8f16be0dcd405afce27c863/element HTTP/1.1" 200 88
+2021-08-28 17:13:20,370 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:20,370 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53968/session/f484b439a8f16be0dcd405afce27c863/element/94ba4c1f-3c82-4309-96b7-56980eddb8f4/value {"text": "19198528521@163.com", "value": ["1", "9", "1", "9", "8", "5", "2", "8", "5", "2", "1", "@", "1", "6", "3", ".", "c", "o", "m"], "id": "94ba4c1f-3c82-4309-96b7-56980eddb8f4"}
+2021-08-28 17:13:20,436 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53968 "POST /session/f484b439a8f16be0dcd405afce27c863/element/94ba4c1f-3c82-4309-96b7-56980eddb8f4/value HTTP/1.1" 200 14
+2021-08-28 17:13:20,436 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:20,437 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53968/session/f484b439a8f16be0dcd405afce27c863/element {"using": "css selector", "value": "[id=\"register_nickname\"]"}
+2021-08-28 17:13:20,445 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53968 "POST /session/f484b439a8f16be0dcd405afce27c863/element HTTP/1.1" 200 88
+2021-08-28 17:13:20,446 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:20,446 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53968/session/f484b439a8f16be0dcd405afce27c863/element/cac5cc08-c472-496f-b080-82ec216d6886/value {"text": "19198528521", "value": ["1", "9", "1", "9", "8", "5", "2", "8", "5", "2", "1"], "id": "cac5cc08-c472-496f-b080-82ec216d6886"}
+2021-08-28 17:13:20,665 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53968 "POST /session/f484b439a8f16be0dcd405afce27c863/element/cac5cc08-c472-496f-b080-82ec216d6886/value HTTP/1.1" 200 14
+2021-08-28 17:13:20,665 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:20,665 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53968/session/f484b439a8f16be0dcd405afce27c863/element {"using": "css selector", "value": "[id=\"register_password\"]"}
+2021-08-28 17:13:20,673 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53968 "POST /session/f484b439a8f16be0dcd405afce27c863/element HTTP/1.1" 200 88
+2021-08-28 17:13:20,673 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:20,673 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53968/session/f484b439a8f16be0dcd405afce27c863/element/5cf5f851-79f6-4358-b532-96f6a7bc13f2/value {"text": "password", "value": ["p", "a", "s", "s", "w", "o", "r", "d"], "id": "5cf5f851-79f6-4358-b532-96f6a7bc13f2"}
+2021-08-28 17:13:20,716 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53968 "POST /session/f484b439a8f16be0dcd405afce27c863/element/5cf5f851-79f6-4358-b532-96f6a7bc13f2/value HTTP/1.1" 200 14
+2021-08-28 17:13:20,716 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:20,717 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53968/session/f484b439a8f16be0dcd405afce27c863/element {"using": "css selector", "value": "[id=\"captcha_code\"]"}
+2021-08-28 17:13:20,724 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53968 "POST /session/f484b439a8f16be0dcd405afce27c863/element HTTP/1.1" 200 88
+2021-08-28 17:13:20,724 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:20,724 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53968/session/f484b439a8f16be0dcd405afce27c863/element/6b0eac41-52d0-4165-85ec-72c9d51629b7/value {"text": "code1", "value": ["c", "o", "d", "e", "1"], "id": "6b0eac41-52d0-4165-85ec-72c9d51629b7"}
+2021-08-28 17:13:20,757 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53968 "POST /session/f484b439a8f16be0dcd405afce27c863/element/6b0eac41-52d0-4165-85ec-72c9d51629b7/value HTTP/1.1" 200 14
+2021-08-28 17:13:20,757 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:20,758 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53968/session/f484b439a8f16be0dcd405afce27c863/element {"using": "css selector", "value": "[id=\"register-btn\"]"}
+2021-08-28 17:13:20,765 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53968 "POST /session/f484b439a8f16be0dcd405afce27c863/element HTTP/1.1" 200 88
+2021-08-28 17:13:20,765 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:20,766 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53968/session/f484b439a8f16be0dcd405afce27c863/element/d8f64310-abcb-43f7-84bf-7d9b2d40d4a6/click {"id": "d8f64310-abcb-43f7-84bf-7d9b2d40d4a6"}
+2021-08-28 17:13:20,937 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53968 "POST /session/f484b439a8f16be0dcd405afce27c863/element/d8f64310-abcb-43f7-84bf-7d9b2d40d4a6/click HTTP/1.1" 200 14
+2021-08-28 17:13:20,937 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:20,938 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:53968/session/f484b439a8f16be0dcd405afce27c863/element {"using": "css selector", "value": "[id=\"captcha_code-error\"]"}
+2021-08-28 17:13:20,946 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53968 "POST /session/f484b439a8f16be0dcd405afce27c863/element HTTP/1.1" 200 88
+2021-08-28 17:13:20,946 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:20,946 - remote_connection.py[line:388] - DEBUG: GET http://127.0.0.1:53968/session/f484b439a8f16be0dcd405afce27c863/element/0de55462-79a5-4557-a23d-927edaa47055/text {"id": "0de55462-79a5-4557-a23d-927edaa47055"}
+2021-08-28 17:13:20,957 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53968 "GET /session/f484b439a8f16be0dcd405afce27c863/element/0de55462-79a5-4557-a23d-927edaa47055/text HTTP/1.1" 200 27
+2021-08-28 17:13:20,957 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:25,957 - remote_connection.py[line:388] - DEBUG: DELETE http://127.0.0.1:53968/session/f484b439a8f16be0dcd405afce27c863/window {}
+2021-08-28 17:13:26,002 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:53968 "DELETE /session/f484b439a8f16be0dcd405afce27c863/window HTTP/1.1" 200 12
+2021-08-28 17:13:26,002 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:26,558 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54010/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-08-28 17:13:26,558 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:54010
+2021-08-28 17:13:31,142 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54010 "POST /session HTTP/1.1" 200 658
+2021-08-28 17:13:31,142 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:31,142 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54010/session/76e2170a8108d1ec150b0d76a40d644c/url {"url": "http://www.5itest.cn/register"}
+2021-08-28 17:13:50,075 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54010 "POST /session/76e2170a8108d1ec150b0d76a40d644c/url HTTP/1.1" 200 14
+2021-08-28 17:13:50,075 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:50,075 - register_ddt_case.py[line:21] - DEBUG: test_register_2___163_com____19198528521____password____code1____user_email_error__
+2021-08-28 17:13:50,076 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54010/session/76e2170a8108d1ec150b0d76a40d644c/element {"using": "css selector", "value": "[id=\"register_email\"]"}
+2021-08-28 17:13:50,085 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54010 "POST /session/76e2170a8108d1ec150b0d76a40d644c/element HTTP/1.1" 200 88
+2021-08-28 17:13:50,085 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:50,085 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54010/session/76e2170a8108d1ec150b0d76a40d644c/element/855f7a2b-ab1e-4475-9c0e-f87665f8b1d7/value {"text": "163.com", "value": ["1", "6", "3", ".", "c", "o", "m"], "id": "855f7a2b-ab1e-4475-9c0e-f87665f8b1d7"}
+2021-08-28 17:13:50,130 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54010 "POST /session/76e2170a8108d1ec150b0d76a40d644c/element/855f7a2b-ab1e-4475-9c0e-f87665f8b1d7/value HTTP/1.1" 200 14
+2021-08-28 17:13:50,130 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:50,130 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54010/session/76e2170a8108d1ec150b0d76a40d644c/element {"using": "css selector", "value": "[id=\"register_nickname\"]"}
+2021-08-28 17:13:50,138 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54010 "POST /session/76e2170a8108d1ec150b0d76a40d644c/element HTTP/1.1" 200 88
+2021-08-28 17:13:50,138 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:50,138 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54010/session/76e2170a8108d1ec150b0d76a40d644c/element/d27e361f-58c7-4ce5-9cd4-9b706d16d739/value {"text": "19198528521", "value": ["1", "9", "1", "9", "8", "5", "2", "8", "5", "2", "1"], "id": "d27e361f-58c7-4ce5-9cd4-9b706d16d739"}
+2021-08-28 17:13:50,187 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54010 "POST /session/76e2170a8108d1ec150b0d76a40d644c/element/d27e361f-58c7-4ce5-9cd4-9b706d16d739/value HTTP/1.1" 200 14
+2021-08-28 17:13:50,188 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:50,188 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54010/session/76e2170a8108d1ec150b0d76a40d644c/element {"using": "css selector", "value": "[id=\"register_password\"]"}
+2021-08-28 17:13:50,196 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54010 "POST /session/76e2170a8108d1ec150b0d76a40d644c/element HTTP/1.1" 200 88
+2021-08-28 17:13:50,196 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:50,196 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54010/session/76e2170a8108d1ec150b0d76a40d644c/element/bbd7baf0-552c-47b7-823c-e7bca72a1f44/value {"text": "password", "value": ["p", "a", "s", "s", "w", "o", "r", "d"], "id": "bbd7baf0-552c-47b7-823c-e7bca72a1f44"}
+2021-08-28 17:13:50,237 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54010 "POST /session/76e2170a8108d1ec150b0d76a40d644c/element/bbd7baf0-552c-47b7-823c-e7bca72a1f44/value HTTP/1.1" 200 14
+2021-08-28 17:13:50,237 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:50,237 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54010/session/76e2170a8108d1ec150b0d76a40d644c/element {"using": "css selector", "value": "[id=\"captcha_code\"]"}
+2021-08-28 17:13:50,245 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54010 "POST /session/76e2170a8108d1ec150b0d76a40d644c/element HTTP/1.1" 200 88
+2021-08-28 17:13:50,245 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:50,245 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54010/session/76e2170a8108d1ec150b0d76a40d644c/element/b86e4e38-a7af-4883-b223-8abfe47a493d/value {"text": "code1", "value": ["c", "o", "d", "e", "1"], "id": "b86e4e38-a7af-4883-b223-8abfe47a493d"}
+2021-08-28 17:13:50,279 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54010 "POST /session/76e2170a8108d1ec150b0d76a40d644c/element/b86e4e38-a7af-4883-b223-8abfe47a493d/value HTTP/1.1" 200 14
+2021-08-28 17:13:50,279 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:50,280 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54010/session/76e2170a8108d1ec150b0d76a40d644c/element {"using": "css selector", "value": "[id=\"register-btn\"]"}
+2021-08-28 17:13:50,287 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54010 "POST /session/76e2170a8108d1ec150b0d76a40d644c/element HTTP/1.1" 200 88
+2021-08-28 17:13:50,287 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:50,287 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54010/session/76e2170a8108d1ec150b0d76a40d644c/element/4ea71ef9-097a-4c28-bd0c-d0ab2a256d5b/click {"id": "4ea71ef9-097a-4c28-bd0c-d0ab2a256d5b"}
+2021-08-28 17:13:50,462 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54010 "POST /session/76e2170a8108d1ec150b0d76a40d644c/element/4ea71ef9-097a-4c28-bd0c-d0ab2a256d5b/click HTTP/1.1" 200 14
+2021-08-28 17:13:50,462 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:50,463 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54010/session/76e2170a8108d1ec150b0d76a40d644c/element {"using": "css selector", "value": "[id=\"register_email-error\"]"}
+2021-08-28 17:13:50,471 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54010 "POST /session/76e2170a8108d1ec150b0d76a40d644c/element HTTP/1.1" 200 88
+2021-08-28 17:13:50,471 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:50,472 - remote_connection.py[line:388] - DEBUG: GET http://127.0.0.1:54010/session/76e2170a8108d1ec150b0d76a40d644c/element/4041e3ac-3eae-499b-87ba-cc9b4e6fbeb8/text {"id": "4041e3ac-3eae-499b-87ba-cc9b4e6fbeb8"}
+2021-08-28 17:13:50,483 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54010 "GET /session/76e2170a8108d1ec150b0d76a40d644c/element/4041e3ac-3eae-499b-87ba-cc9b4e6fbeb8/text HTTP/1.1" 200 48
+2021-08-28 17:13:50,483 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:55,483 - remote_connection.py[line:388] - DEBUG: DELETE http://127.0.0.1:54010/session/76e2170a8108d1ec150b0d76a40d644c/window {}
+2021-08-28 17:13:55,527 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54010 "DELETE /session/76e2170a8108d1ec150b0d76a40d644c/window HTTP/1.1" 200 12
+2021-08-28 17:13:55,528 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:13:56,076 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54070/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-08-28 17:13:56,076 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:54070
+2021-08-28 17:14:00,856 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54070 "POST /session HTTP/1.1" 200 658
+2021-08-28 17:14:00,856 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:14:00,856 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54070/session/ae0fe7090e713984f2fe3e6fbd7a70f4/url {"url": "http://www.5itest.cn/register"}
+2021-08-28 17:14:23,684 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54070 "POST /session/ae0fe7090e713984f2fe3e6fbd7a70f4/url HTTP/1.1" 200 14
+2021-08-28 17:14:23,684 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:14:23,684 - register_ddt_case.py[line:21] - DEBUG: test_register_3___19198528521_163_com____19198528521____password____code1____user_email_error__
+2021-08-28 17:14:23,685 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54070/session/ae0fe7090e713984f2fe3e6fbd7a70f4/element {"using": "css selector", "value": "[id=\"register_email\"]"}
+2021-08-28 17:14:23,694 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54070 "POST /session/ae0fe7090e713984f2fe3e6fbd7a70f4/element HTTP/1.1" 200 88
+2021-08-28 17:14:23,694 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:14:23,694 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54070/session/ae0fe7090e713984f2fe3e6fbd7a70f4/element/0478d857-96c3-4073-b756-a048500418ec/value {"text": "19198528521@163.com", "value": ["1", "9", "1", "9", "8", "5", "2", "8", "5", "2", "1", "@", "1", "6", "3", ".", "c", "o", "m"], "id": "0478d857-96c3-4073-b756-a048500418ec"}
+2021-08-28 17:14:23,758 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54070 "POST /session/ae0fe7090e713984f2fe3e6fbd7a70f4/element/0478d857-96c3-4073-b756-a048500418ec/value HTTP/1.1" 200 14
+2021-08-28 17:14:23,758 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:14:23,759 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54070/session/ae0fe7090e713984f2fe3e6fbd7a70f4/element {"using": "css selector", "value": "[id=\"register_nickname\"]"}
+2021-08-28 17:14:23,767 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54070 "POST /session/ae0fe7090e713984f2fe3e6fbd7a70f4/element HTTP/1.1" 200 88
+2021-08-28 17:14:23,767 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:14:23,767 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54070/session/ae0fe7090e713984f2fe3e6fbd7a70f4/element/43557133-758d-4f2c-8dde-08bd1528b377/value {"text": "19198528521", "value": ["1", "9", "1", "9", "8", "5", "2", "8", "5", "2", "1"], "id": "43557133-758d-4f2c-8dde-08bd1528b377"}
+2021-08-28 17:14:23,953 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54070 "POST /session/ae0fe7090e713984f2fe3e6fbd7a70f4/element/43557133-758d-4f2c-8dde-08bd1528b377/value HTTP/1.1" 200 14
+2021-08-28 17:14:23,953 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:14:23,954 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54070/session/ae0fe7090e713984f2fe3e6fbd7a70f4/element {"using": "css selector", "value": "[id=\"register_password\"]"}
+2021-08-28 17:14:23,961 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54070 "POST /session/ae0fe7090e713984f2fe3e6fbd7a70f4/element HTTP/1.1" 200 88
+2021-08-28 17:14:23,961 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:14:23,961 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54070/session/ae0fe7090e713984f2fe3e6fbd7a70f4/element/5059638c-b4a2-4c48-aac1-06b1cafdd6ee/value {"text": "password", "value": ["p", "a", "s", "s", "w", "o", "r", "d"], "id": "5059638c-b4a2-4c48-aac1-06b1cafdd6ee"}
+2021-08-28 17:14:24,007 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54070 "POST /session/ae0fe7090e713984f2fe3e6fbd7a70f4/element/5059638c-b4a2-4c48-aac1-06b1cafdd6ee/value HTTP/1.1" 200 14
+2021-08-28 17:14:24,007 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:14:24,008 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54070/session/ae0fe7090e713984f2fe3e6fbd7a70f4/element {"using": "css selector", "value": "[id=\"captcha_code\"]"}
+2021-08-28 17:14:24,015 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54070 "POST /session/ae0fe7090e713984f2fe3e6fbd7a70f4/element HTTP/1.1" 200 88
+2021-08-28 17:14:24,015 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:14:24,015 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54070/session/ae0fe7090e713984f2fe3e6fbd7a70f4/element/eabba62b-41cd-477a-8c98-0a89b9eada1e/value {"text": "code1", "value": ["c", "o", "d", "e", "1"], "id": "eabba62b-41cd-477a-8c98-0a89b9eada1e"}
+2021-08-28 17:14:24,048 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54070 "POST /session/ae0fe7090e713984f2fe3e6fbd7a70f4/element/eabba62b-41cd-477a-8c98-0a89b9eada1e/value HTTP/1.1" 200 14
+2021-08-28 17:14:24,048 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:14:24,049 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54070/session/ae0fe7090e713984f2fe3e6fbd7a70f4/element {"using": "css selector", "value": "[id=\"register-btn\"]"}
+2021-08-28 17:14:24,056 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54070 "POST /session/ae0fe7090e713984f2fe3e6fbd7a70f4/element HTTP/1.1" 200 88
+2021-08-28 17:14:24,057 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:14:24,057 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54070/session/ae0fe7090e713984f2fe3e6fbd7a70f4/element/01b62496-0986-4b13-a383-ea15c3aa1dbd/click {"id": "01b62496-0986-4b13-a383-ea15c3aa1dbd"}
+2021-08-28 17:14:24,248 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54070 "POST /session/ae0fe7090e713984f2fe3e6fbd7a70f4/element/01b62496-0986-4b13-a383-ea15c3aa1dbd/click HTTP/1.1" 200 14
+2021-08-28 17:14:24,249 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:14:24,249 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54070/session/ae0fe7090e713984f2fe3e6fbd7a70f4/element {"using": "css selector", "value": "[id=\"register_email-error\"]"}
+2021-08-28 17:14:24,259 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54070 "POST /session/ae0fe7090e713984f2fe3e6fbd7a70f4/element HTTP/1.1" 404 1064
+2021-08-28 17:14:24,259 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:14:29,259 - remote_connection.py[line:388] - DEBUG: GET http://127.0.0.1:54070/session/ae0fe7090e713984f2fe3e6fbd7a70f4/screenshot {}
+2021-08-28 17:14:29,472 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54070 "GET /session/ae0fe7090e713984f2fe3e6fbd7a70f4/screenshot HTTP/1.1" 200 43448
+2021-08-28 17:14:29,472 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:14:29,473 - remote_connection.py[line:388] - DEBUG: DELETE http://127.0.0.1:54070/session/ae0fe7090e713984f2fe3e6fbd7a70f4/window {}
+2021-08-28 17:14:29,510 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54070 "DELETE /session/ae0fe7090e713984f2fe3e6fbd7a70f4/window HTTP/1.1" 200 12
+2021-08-28 17:14:29,510 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:19:22,695 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54553/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-08-28 17:19:22,696 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:54553
+2021-08-28 17:19:27,821 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54553 "POST /session HTTP/1.1" 200 659
+2021-08-28 17:19:27,822 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:19:27,822 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54553/session/23fe45719ed4aec0adc870030de42b19/url {"url": "http://www.5itest.cn/register"}
+2021-08-28 17:19:48,171 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54553 "POST /session/23fe45719ed4aec0adc870030de42b19/url HTTP/1.1" 200 14
+2021-08-28 17:19:48,171 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:19:48,171 - register_ddt_case.py[line:21] - DEBUG: test_register_1___19198528521_163_com____19198528521____password____code1____code_text_error__
+2021-08-28 17:19:48,172 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54553/session/23fe45719ed4aec0adc870030de42b19/element {"using": "css selector", "value": "[id=\"register_email\"]"}
+2021-08-28 17:19:48,181 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54553 "POST /session/23fe45719ed4aec0adc870030de42b19/element HTTP/1.1" 200 88
+2021-08-28 17:19:48,181 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:19:48,182 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54553/session/23fe45719ed4aec0adc870030de42b19/element/768c784f-5e4d-4529-9a5c-5f4d5fb430a3/value {"text": "19198528521@163.com", "value": ["1", "9", "1", "9", "8", "5", "2", "8", "5", "2", "1", "@", "1", "6", "3", ".", "c", "o", "m"], "id": "768c784f-5e4d-4529-9a5c-5f4d5fb430a3"}
+2021-08-28 17:19:48,247 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54553 "POST /session/23fe45719ed4aec0adc870030de42b19/element/768c784f-5e4d-4529-9a5c-5f4d5fb430a3/value HTTP/1.1" 200 14
+2021-08-28 17:19:48,247 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:19:48,248 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54553/session/23fe45719ed4aec0adc870030de42b19/element {"using": "css selector", "value": "[id=\"register_nickname\"]"}
+2021-08-28 17:19:48,256 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54553 "POST /session/23fe45719ed4aec0adc870030de42b19/element HTTP/1.1" 200 88
+2021-08-28 17:19:48,256 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:19:48,256 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54553/session/23fe45719ed4aec0adc870030de42b19/element/df5c322e-4a87-468f-847d-78ce407d83b2/value {"text": "19198528521", "value": ["1", "9", "1", "9", "8", "5", "2", "8", "5", "2", "1"], "id": "df5c322e-4a87-468f-847d-78ce407d83b2"}
+2021-08-28 17:19:48,461 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54553 "POST /session/23fe45719ed4aec0adc870030de42b19/element/df5c322e-4a87-468f-847d-78ce407d83b2/value HTTP/1.1" 200 14
+2021-08-28 17:19:48,461 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:19:48,462 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54553/session/23fe45719ed4aec0adc870030de42b19/element {"using": "css selector", "value": "[id=\"register_password\"]"}
+2021-08-28 17:19:48,470 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54553 "POST /session/23fe45719ed4aec0adc870030de42b19/element HTTP/1.1" 200 88
+2021-08-28 17:19:48,470 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:19:48,470 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54553/session/23fe45719ed4aec0adc870030de42b19/element/30f16edc-9c06-4edf-b3d4-bd384c91e738/value {"text": "password", "value": ["p", "a", "s", "s", "w", "o", "r", "d"], "id": "30f16edc-9c06-4edf-b3d4-bd384c91e738"}
+2021-08-28 17:19:48,513 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54553 "POST /session/23fe45719ed4aec0adc870030de42b19/element/30f16edc-9c06-4edf-b3d4-bd384c91e738/value HTTP/1.1" 200 14
+2021-08-28 17:19:48,514 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:19:48,514 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54553/session/23fe45719ed4aec0adc870030de42b19/element {"using": "css selector", "value": "[id=\"captcha_code\"]"}
+2021-08-28 17:19:48,521 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54553 "POST /session/23fe45719ed4aec0adc870030de42b19/element HTTP/1.1" 200 88
+2021-08-28 17:19:48,521 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:19:48,521 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54553/session/23fe45719ed4aec0adc870030de42b19/element/73af5f8b-edae-44c2-bb97-edd7d671aeb9/value {"text": "code1", "value": ["c", "o", "d", "e", "1"], "id": "73af5f8b-edae-44c2-bb97-edd7d671aeb9"}
+2021-08-28 17:19:48,555 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54553 "POST /session/23fe45719ed4aec0adc870030de42b19/element/73af5f8b-edae-44c2-bb97-edd7d671aeb9/value HTTP/1.1" 200 14
+2021-08-28 17:19:48,555 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:19:48,555 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54553/session/23fe45719ed4aec0adc870030de42b19/element {"using": "css selector", "value": "[id=\"register-btn\"]"}
+2021-08-28 17:19:48,564 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54553 "POST /session/23fe45719ed4aec0adc870030de42b19/element HTTP/1.1" 200 88
+2021-08-28 17:19:48,564 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:19:48,564 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54553/session/23fe45719ed4aec0adc870030de42b19/element/fb95cf2c-0200-407e-ba35-a40e9320a385/click {"id": "fb95cf2c-0200-407e-ba35-a40e9320a385"}
+2021-08-28 17:19:48,813 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54553 "POST /session/23fe45719ed4aec0adc870030de42b19/element/fb95cf2c-0200-407e-ba35-a40e9320a385/click HTTP/1.1" 200 14
+2021-08-28 17:19:48,813 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:19:48,814 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54553/session/23fe45719ed4aec0adc870030de42b19/element {"using": "css selector", "value": "[id=\"captcha_code-error\"]"}
+2021-08-28 17:19:48,821 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54553 "POST /session/23fe45719ed4aec0adc870030de42b19/element HTTP/1.1" 200 88
+2021-08-28 17:19:48,822 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:19:48,822 - remote_connection.py[line:388] - DEBUG: GET http://127.0.0.1:54553/session/23fe45719ed4aec0adc870030de42b19/element/104440b7-d49e-4318-afb6-e8047058f7fd/text {"id": "104440b7-d49e-4318-afb6-e8047058f7fd"}
+2021-08-28 17:19:48,831 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54553 "GET /session/23fe45719ed4aec0adc870030de42b19/element/104440b7-d49e-4318-afb6-e8047058f7fd/text HTTP/1.1" 200 27
+2021-08-28 17:19:48,831 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:19:53,831 - remote_connection.py[line:388] - DEBUG: DELETE http://127.0.0.1:54553/session/23fe45719ed4aec0adc870030de42b19/window {}
+2021-08-28 17:19:53,868 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54553 "DELETE /session/23fe45719ed4aec0adc870030de42b19/window HTTP/1.1" 200 12
+2021-08-28 17:19:53,868 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:22:13,161 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54863/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-08-28 17:22:13,161 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:54863
+2021-08-28 17:22:17,774 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54863 "POST /session HTTP/1.1" 200 659
+2021-08-28 17:22:17,774 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:22:17,774 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54863/session/b9d9ef907a886bdd290bfbd71a9b5fa4/url {"url": "http://www.5itest.cn/register"}
+2021-08-28 17:22:31,048 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54863 "POST /session/b9d9ef907a886bdd290bfbd71a9b5fa4/url HTTP/1.1" 200 14
+2021-08-28 17:22:31,048 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:22:31,048 - register_ddt_case.py[line:21] - DEBUG: test_register_1___19198528521_163_com____19198528521____password____code1____code_text_error__
+2021-08-28 17:22:31,049 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54863/session/b9d9ef907a886bdd290bfbd71a9b5fa4/element {"using": "css selector", "value": "[id=\"register_email\"]"}
+2021-08-28 17:22:31,058 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54863 "POST /session/b9d9ef907a886bdd290bfbd71a9b5fa4/element HTTP/1.1" 200 88
+2021-08-28 17:22:31,058 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:22:31,058 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54863/session/b9d9ef907a886bdd290bfbd71a9b5fa4/element/02405651-78fe-4072-b249-b6c56b2d51d6/value {"text": "19198528521@163.com", "value": ["1", "9", "1", "9", "8", "5", "2", "8", "5", "2", "1", "@", "1", "6", "3", ".", "c", "o", "m"], "id": "02405651-78fe-4072-b249-b6c56b2d51d6"}
+2021-08-28 17:22:31,126 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54863 "POST /session/b9d9ef907a886bdd290bfbd71a9b5fa4/element/02405651-78fe-4072-b249-b6c56b2d51d6/value HTTP/1.1" 200 14
+2021-08-28 17:22:31,126 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:22:31,127 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54863/session/b9d9ef907a886bdd290bfbd71a9b5fa4/element {"using": "css selector", "value": "[id=\"register_nickname\"]"}
+2021-08-28 17:22:31,134 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54863 "POST /session/b9d9ef907a886bdd290bfbd71a9b5fa4/element HTTP/1.1" 200 88
+2021-08-28 17:22:31,134 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:22:31,134 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54863/session/b9d9ef907a886bdd290bfbd71a9b5fa4/element/07ddfc47-4a3e-4626-8e30-c0318c72d49f/value {"text": "19198528521", "value": ["1", "9", "1", "9", "8", "5", "2", "8", "5", "2", "1"], "id": "07ddfc47-4a3e-4626-8e30-c0318c72d49f"}
+2021-08-28 17:22:33,212 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54863 "POST /session/b9d9ef907a886bdd290bfbd71a9b5fa4/element/07ddfc47-4a3e-4626-8e30-c0318c72d49f/value HTTP/1.1" 200 14
+2021-08-28 17:22:33,212 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:22:33,213 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54863/session/b9d9ef907a886bdd290bfbd71a9b5fa4/element {"using": "css selector", "value": "[id=\"register_password\"]"}
+2021-08-28 17:22:33,220 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54863 "POST /session/b9d9ef907a886bdd290bfbd71a9b5fa4/element HTTP/1.1" 200 88
+2021-08-28 17:22:33,221 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:22:33,221 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54863/session/b9d9ef907a886bdd290bfbd71a9b5fa4/element/6c97565f-ecdd-4c59-83a4-ea35c7335bb1/value {"text": "password", "value": ["p", "a", "s", "s", "w", "o", "r", "d"], "id": "6c97565f-ecdd-4c59-83a4-ea35c7335bb1"}
+2021-08-28 17:22:33,265 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54863 "POST /session/b9d9ef907a886bdd290bfbd71a9b5fa4/element/6c97565f-ecdd-4c59-83a4-ea35c7335bb1/value HTTP/1.1" 200 14
+2021-08-28 17:22:33,265 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:22:33,265 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54863/session/b9d9ef907a886bdd290bfbd71a9b5fa4/element {"using": "css selector", "value": "[id=\"captcha_code\"]"}
+2021-08-28 17:22:33,274 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54863 "POST /session/b9d9ef907a886bdd290bfbd71a9b5fa4/element HTTP/1.1" 200 88
+2021-08-28 17:22:33,274 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:22:33,274 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54863/session/b9d9ef907a886bdd290bfbd71a9b5fa4/element/ed0bb55f-c938-4611-a91c-e0f2d3c522a6/value {"text": "code1", "value": ["c", "o", "d", "e", "1"], "id": "ed0bb55f-c938-4611-a91c-e0f2d3c522a6"}
+2021-08-28 17:22:33,306 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54863 "POST /session/b9d9ef907a886bdd290bfbd71a9b5fa4/element/ed0bb55f-c938-4611-a91c-e0f2d3c522a6/value HTTP/1.1" 200 14
+2021-08-28 17:22:33,306 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:22:33,307 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54863/session/b9d9ef907a886bdd290bfbd71a9b5fa4/element {"using": "css selector", "value": "[id=\"register-btn\"]"}
+2021-08-28 17:22:33,315 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54863 "POST /session/b9d9ef907a886bdd290bfbd71a9b5fa4/element HTTP/1.1" 200 88
+2021-08-28 17:22:33,315 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:22:33,315 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54863/session/b9d9ef907a886bdd290bfbd71a9b5fa4/element/fa26f3b4-c402-4bdf-8c55-0dc3d52cf136/click {"id": "fa26f3b4-c402-4bdf-8c55-0dc3d52cf136"}
+2021-08-28 17:22:33,585 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54863 "POST /session/b9d9ef907a886bdd290bfbd71a9b5fa4/element/fa26f3b4-c402-4bdf-8c55-0dc3d52cf136/click HTTP/1.1" 200 14
+2021-08-28 17:22:33,585 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:22:33,585 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:54863/session/b9d9ef907a886bdd290bfbd71a9b5fa4/element {"using": "css selector", "value": "[id=\"captcha_code-error\"]"}
+2021-08-28 17:22:33,593 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54863 "POST /session/b9d9ef907a886bdd290bfbd71a9b5fa4/element HTTP/1.1" 200 88
+2021-08-28 17:22:33,593 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:22:33,594 - remote_connection.py[line:388] - DEBUG: GET http://127.0.0.1:54863/session/b9d9ef907a886bdd290bfbd71a9b5fa4/element/21c7370c-380c-4c37-b4dc-9f6ffcb31b35/text {"id": "21c7370c-380c-4c37-b4dc-9f6ffcb31b35"}
+2021-08-28 17:22:33,603 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54863 "GET /session/b9d9ef907a886bdd290bfbd71a9b5fa4/element/21c7370c-380c-4c37-b4dc-9f6ffcb31b35/text HTTP/1.1" 200 27
+2021-08-28 17:22:33,603 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:22:38,605 - remote_connection.py[line:388] - DEBUG: DELETE http://127.0.0.1:54863/session/b9d9ef907a886bdd290bfbd71a9b5fa4/window {}
+2021-08-28 17:22:38,646 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:54863 "DELETE /session/b9d9ef907a886bdd290bfbd71a9b5fa4/window HTTP/1.1" 200 12
+2021-08-28 17:22:38,647 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:27:58,360 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55222/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-08-28 17:27:58,360 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:55222
+2021-08-28 17:28:03,173 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55222 "POST /session HTTP/1.1" 200 658
+2021-08-28 17:28:03,173 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:28:03,174 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55222/session/e7da6c672ef8e7626e1d094516a4fce8/url {"url": "http://www.5itest.cn/register"}
+2021-08-28 17:28:09,186 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55222 "POST /session/e7da6c672ef8e7626e1d094516a4fce8/url HTTP/1.1" 200 14
+2021-08-28 17:28:09,186 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:28:09,186 - register_ddt_case.py[line:21] - DEBUG: test_register_1___19198528521_163_com____19198528521____password____code1____code_text_error__
+2021-08-28 17:28:09,187 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55222/session/e7da6c672ef8e7626e1d094516a4fce8/element {"using": "css selector", "value": "[id=\"register_email\"]"}
+2021-08-28 17:28:09,202 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55222 "POST /session/e7da6c672ef8e7626e1d094516a4fce8/element HTTP/1.1" 200 88
+2021-08-28 17:28:09,203 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:28:09,203 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55222/session/e7da6c672ef8e7626e1d094516a4fce8/element/f18a7324-b958-4180-99cf-b82fa9ae3e79/value {"text": "19198528521@163.com", "value": ["1", "9", "1", "9", "8", "5", "2", "8", "5", "2", "1", "@", "1", "6", "3", ".", "c", "o", "m"], "id": "f18a7324-b958-4180-99cf-b82fa9ae3e79"}
+2021-08-28 17:28:09,278 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55222 "POST /session/e7da6c672ef8e7626e1d094516a4fce8/element/f18a7324-b958-4180-99cf-b82fa9ae3e79/value HTTP/1.1" 200 14
+2021-08-28 17:28:09,278 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:28:09,279 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55222/session/e7da6c672ef8e7626e1d094516a4fce8/element {"using": "css selector", "value": "[id=\"register_nickname\"]"}
+2021-08-28 17:28:09,288 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55222 "POST /session/e7da6c672ef8e7626e1d094516a4fce8/element HTTP/1.1" 200 88
+2021-08-28 17:28:09,288 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:28:09,288 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55222/session/e7da6c672ef8e7626e1d094516a4fce8/element/c8b55617-e21a-49d3-90fc-65030405e66f/value {"text": "19198528521", "value": ["1", "9", "1", "9", "8", "5", "2", "8", "5", "2", "1"], "id": "c8b55617-e21a-49d3-90fc-65030405e66f"}
+2021-08-28 17:28:11,904 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55222 "POST /session/e7da6c672ef8e7626e1d094516a4fce8/element/c8b55617-e21a-49d3-90fc-65030405e66f/value HTTP/1.1" 200 14
+2021-08-28 17:28:11,905 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:28:11,905 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55222/session/e7da6c672ef8e7626e1d094516a4fce8/element {"using": "css selector", "value": "[id=\"register_password\"]"}
+2021-08-28 17:28:11,914 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55222 "POST /session/e7da6c672ef8e7626e1d094516a4fce8/element HTTP/1.1" 200 88
+2021-08-28 17:28:11,914 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:28:11,915 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55222/session/e7da6c672ef8e7626e1d094516a4fce8/element/65ef4fb6-6d6b-49de-aadc-54be3e4d807b/value {"text": "password", "value": ["p", "a", "s", "s", "w", "o", "r", "d"], "id": "65ef4fb6-6d6b-49de-aadc-54be3e4d807b"}
+2021-08-28 17:28:11,967 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55222 "POST /session/e7da6c672ef8e7626e1d094516a4fce8/element/65ef4fb6-6d6b-49de-aadc-54be3e4d807b/value HTTP/1.1" 200 14
+2021-08-28 17:28:11,967 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:28:11,968 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55222/session/e7da6c672ef8e7626e1d094516a4fce8/element {"using": "css selector", "value": "[id=\"captcha_code\"]"}
+2021-08-28 17:28:11,977 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55222 "POST /session/e7da6c672ef8e7626e1d094516a4fce8/element HTTP/1.1" 200 88
+2021-08-28 17:28:11,977 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:28:11,977 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55222/session/e7da6c672ef8e7626e1d094516a4fce8/element/23c290b4-ff17-4fb7-891f-c0e663105d84/value {"text": "code1", "value": ["c", "o", "d", "e", "1"], "id": "23c290b4-ff17-4fb7-891f-c0e663105d84"}
+2021-08-28 17:28:12,016 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55222 "POST /session/e7da6c672ef8e7626e1d094516a4fce8/element/23c290b4-ff17-4fb7-891f-c0e663105d84/value HTTP/1.1" 200 14
+2021-08-28 17:28:12,016 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:28:12,017 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55222/session/e7da6c672ef8e7626e1d094516a4fce8/element {"using": "css selector", "value": "[id=\"register-btn\"]"}
+2021-08-28 17:28:12,024 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55222 "POST /session/e7da6c672ef8e7626e1d094516a4fce8/element HTTP/1.1" 200 88
+2021-08-28 17:28:12,024 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:28:12,024 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55222/session/e7da6c672ef8e7626e1d094516a4fce8/element/43ad7eb8-3ada-4ad0-90a3-56867486beac/click {"id": "43ad7eb8-3ada-4ad0-90a3-56867486beac"}
+2021-08-28 17:28:12,206 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55222 "POST /session/e7da6c672ef8e7626e1d094516a4fce8/element/43ad7eb8-3ada-4ad0-90a3-56867486beac/click HTTP/1.1" 200 14
+2021-08-28 17:28:12,206 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:28:12,207 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55222/session/e7da6c672ef8e7626e1d094516a4fce8/element {"using": "css selector", "value": "[id=\"captcha_code-error\"]"}
+2021-08-28 17:28:12,215 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55222 "POST /session/e7da6c672ef8e7626e1d094516a4fce8/element HTTP/1.1" 200 88
+2021-08-28 17:28:12,216 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:28:12,216 - remote_connection.py[line:388] - DEBUG: GET http://127.0.0.1:55222/session/e7da6c672ef8e7626e1d094516a4fce8/element/d069e5b7-f9c9-419d-8801-d0616e7cf32c/text {"id": "d069e5b7-f9c9-419d-8801-d0616e7cf32c"}
+2021-08-28 17:28:12,226 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55222 "GET /session/e7da6c672ef8e7626e1d094516a4fce8/element/d069e5b7-f9c9-419d-8801-d0616e7cf32c/text HTTP/1.1" 200 27
+2021-08-28 17:28:12,226 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:28:17,227 - remote_connection.py[line:388] - DEBUG: DELETE http://127.0.0.1:55222/session/e7da6c672ef8e7626e1d094516a4fce8/window {}
+2021-08-28 17:28:17,259 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55222 "DELETE /session/e7da6c672ef8e7626e1d094516a4fce8/window HTTP/1.1" 200 12
+2021-08-28 17:28:17,259 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:35:11,174 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55522/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-08-28 17:35:11,174 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:55522
+2021-08-28 17:35:16,294 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55522 "POST /session HTTP/1.1" 200 658
+2021-08-28 17:35:16,294 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:35:16,294 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55522/session/8f86a97ce0bb96d1041219b7cc045cdd/url {"url": "http://www.5itest.cn/register"}
+2021-08-28 17:35:37,455 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55522 "POST /session/8f86a97ce0bb96d1041219b7cc045cdd/url HTTP/1.1" 200 14
+2021-08-28 17:35:37,456 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:35:37,456 - register_ddt_case.py[line:21] - DEBUG: test_register_1___19198528521_163_com____19198528521____password____code1____code_text_error__
+2021-08-28 17:35:37,457 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55522/session/8f86a97ce0bb96d1041219b7cc045cdd/element {"using": "css selector", "value": "[id=\"register_email\"]"}
+2021-08-28 17:35:38,253 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55522 "POST /session/8f86a97ce0bb96d1041219b7cc045cdd/element HTTP/1.1" 200 88
+2021-08-28 17:35:38,254 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:35:38,254 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55522/session/8f86a97ce0bb96d1041219b7cc045cdd/element/b08db4a5-2a93-45cf-b360-1abe4e777ed6/value {"text": "19198528521@163.com", "value": ["1", "9", "1", "9", "8", "5", "2", "8", "5", "2", "1", "@", "1", "6", "3", ".", "c", "o", "m"], "id": "b08db4a5-2a93-45cf-b360-1abe4e777ed6"}
+2021-08-28 17:35:46,161 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55522 "POST /session/8f86a97ce0bb96d1041219b7cc045cdd/element/b08db4a5-2a93-45cf-b360-1abe4e777ed6/value HTTP/1.1" 200 14
+2021-08-28 17:35:46,161 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:35:46,162 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55522/session/8f86a97ce0bb96d1041219b7cc045cdd/element {"using": "css selector", "value": "[id=\"register_nickname\"]"}
+2021-08-28 17:35:46,175 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55522 "POST /session/8f86a97ce0bb96d1041219b7cc045cdd/element HTTP/1.1" 200 88
+2021-08-28 17:35:46,175 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:35:46,175 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55522/session/8f86a97ce0bb96d1041219b7cc045cdd/element/0a05090e-1df7-4ecb-ba4d-44b69e95d207/value {"text": "19198528521", "value": ["1", "9", "1", "9", "8", "5", "2", "8", "5", "2", "1"], "id": "0a05090e-1df7-4ecb-ba4d-44b69e95d207"}
+2021-08-28 17:35:46,398 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55522 "POST /session/8f86a97ce0bb96d1041219b7cc045cdd/element/0a05090e-1df7-4ecb-ba4d-44b69e95d207/value HTTP/1.1" 200 14
+2021-08-28 17:35:46,398 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:35:46,399 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55522/session/8f86a97ce0bb96d1041219b7cc045cdd/element {"using": "css selector", "value": "[id=\"register_password\"]"}
+2021-08-28 17:35:46,407 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55522 "POST /session/8f86a97ce0bb96d1041219b7cc045cdd/element HTTP/1.1" 200 88
+2021-08-28 17:35:46,407 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:35:46,407 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55522/session/8f86a97ce0bb96d1041219b7cc045cdd/element/afe4e674-7790-4a82-aaa1-cd7ae77f768d/value {"text": "password", "value": ["p", "a", "s", "s", "w", "o", "r", "d"], "id": "afe4e674-7790-4a82-aaa1-cd7ae77f768d"}
+2021-08-28 17:35:46,447 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55522 "POST /session/8f86a97ce0bb96d1041219b7cc045cdd/element/afe4e674-7790-4a82-aaa1-cd7ae77f768d/value HTTP/1.1" 200 14
+2021-08-28 17:35:46,447 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:35:46,448 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55522/session/8f86a97ce0bb96d1041219b7cc045cdd/element {"using": "css selector", "value": "[id=\"captcha_code\"]"}
+2021-08-28 17:35:46,455 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55522 "POST /session/8f86a97ce0bb96d1041219b7cc045cdd/element HTTP/1.1" 200 88
+2021-08-28 17:35:46,455 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:35:46,455 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55522/session/8f86a97ce0bb96d1041219b7cc045cdd/element/179ae24a-3d9b-4e6c-8293-c5f5752b169c/value {"text": "code1", "value": ["c", "o", "d", "e", "1"], "id": "179ae24a-3d9b-4e6c-8293-c5f5752b169c"}
+2021-08-28 17:35:46,488 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55522 "POST /session/8f86a97ce0bb96d1041219b7cc045cdd/element/179ae24a-3d9b-4e6c-8293-c5f5752b169c/value HTTP/1.1" 200 14
+2021-08-28 17:35:46,488 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:35:46,489 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55522/session/8f86a97ce0bb96d1041219b7cc045cdd/element {"using": "css selector", "value": "[id=\"register-btn\"]"}
+2021-08-28 17:35:46,497 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55522 "POST /session/8f86a97ce0bb96d1041219b7cc045cdd/element HTTP/1.1" 200 88
+2021-08-28 17:35:46,498 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:35:46,498 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55522/session/8f86a97ce0bb96d1041219b7cc045cdd/element/00ff661e-d048-439a-b8a9-4ba08582a808/click {"id": "00ff661e-d048-439a-b8a9-4ba08582a808"}
+2021-08-28 17:35:46,680 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55522 "POST /session/8f86a97ce0bb96d1041219b7cc045cdd/element/00ff661e-d048-439a-b8a9-4ba08582a808/click HTTP/1.1" 200 14
+2021-08-28 17:35:46,680 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:35:46,681 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:55522/session/8f86a97ce0bb96d1041219b7cc045cdd/element {"using": "css selector", "value": "[id=\"captcha_code-error\"]"}
+2021-08-28 17:35:46,688 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55522 "POST /session/8f86a97ce0bb96d1041219b7cc045cdd/element HTTP/1.1" 200 88
+2021-08-28 17:35:46,688 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:35:46,688 - remote_connection.py[line:388] - DEBUG: GET http://127.0.0.1:55522/session/8f86a97ce0bb96d1041219b7cc045cdd/element/eec34b51-564f-4887-954d-da36d8db9f4d/text {"id": "eec34b51-564f-4887-954d-da36d8db9f4d"}
+2021-08-28 17:35:46,698 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55522 "GET /session/8f86a97ce0bb96d1041219b7cc045cdd/element/eec34b51-564f-4887-954d-da36d8db9f4d/text HTTP/1.1" 200 27
+2021-08-28 17:35:46,698 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-08-28 17:35:51,698 - remote_connection.py[line:388] - DEBUG: DELETE http://127.0.0.1:55522/session/8f86a97ce0bb96d1041219b7cc045cdd/window {}
+2021-08-28 17:35:51,751 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:55522 "DELETE /session/8f86a97ce0bb96d1041219b7cc045cdd/window HTTP/1.1" 200 12
+2021-08-28 17:35:51,751 - remote_connection.py[line:440] - DEBUG: Finished Request

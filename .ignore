@@ -1,0 +1,8 @@
+agent.jar
+jenkins_agent.pid
+jenkins-slave.err.log
+jenkins-slave.exe
+jenkins-slave.out.log
+jenkins-slave.wrapper.log
+jenkins-slave.xml
+slave.jar

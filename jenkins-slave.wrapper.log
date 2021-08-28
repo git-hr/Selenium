@@ -1,0 +1,18 @@
+2021-08-28 16:24:33,483 DEBUG - Starting WinSW in the CLI mode
+2021-08-28 16:24:35,088 DEBUG - Starting WinSW in the CLI mode
+2021-08-28 16:24:35,571 INFO  - Installing the service with id 'jenkinsslave-D__workspace_python'
+2021-08-28 16:24:35,588 DEBUG - Completed. Exit code is 0
+2021-08-28 16:24:35,925 DEBUG - Starting WinSW in the CLI mode
+2021-08-28 16:24:37,062 DEBUG - Starting WinSW in the CLI mode
+2021-08-28 16:24:37,556 INFO  - Starting the service with id 'jenkinsslave-D__workspace_python'
+2021-08-28 16:24:38,192 DEBUG - Starting WinSW in the service mode
+2021-08-28 16:24:38,204 DEBUG - Completed. Exit code is 0
+2021-08-28 16:24:38,209 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "D:\workspace\python\slave.jar" -jnlpUrl http://localhost:8080/computer/Selenium/slave-agent.jnlp -secret b5d33ff3de82ed585ce5d46f2a70f2165bba7f4b47f1970ff090aa8eb7cd03bd
+2021-08-28 16:24:38,214 INFO  - Extension loaded: killOnStartup
+2021-08-28 16:24:38,221 WARN  - The requested PID file 'D:\workspace\python\jenkins_agent.pid' does not exist. The runaway process won't be checked
+2021-08-28 16:24:38,438 INFO  - Started process 41956
+2021-08-28 16:24:38,445 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-08-28 16:24:38,452 INFO  - Recording PID of the started process:41956. PID file destination is D:\workspace\python\jenkins_agent.pid
+2021-08-28 16:24:42,374 DEBUG - Starting WinSW in the CLI mode
+2021-08-28 16:24:43,023 DEBUG - User requested the status of the process with id 'jenkinsslave-D__workspace_python'
+2021-08-28 16:24:43,024 DEBUG - Completed. Exit code is 0

@@ -1,0 +1,14 @@
+八月 28, 2021 4:24:39 下午 hudson.remoting.jnlp.Main createEngine
+信息: Setting up agent: Selenium
+八月 28, 2021 4:24:39 下午 hudson.remoting.jnlp.Main$CuiListener <init>
+信息: Jenkins agent is running in headless mode.
+八月 28, 2021 4:24:39 下午 hudson.remoting.Engine startEngine
+信息: Using Remoting version: 4.10
+八月 28, 2021 4:24:39 下午 org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+信息: Using D:\workspace\python\remoting as a remoting work directory
+八月 28, 2021 4:24:39 下午 org.jenkinsci.remoting.engine.WorkDirManager setupLogging
+信息: Both error and output logs will be printed to D:\workspace\python\remoting
+八月 28, 2021 4:24:40 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: WebSocket connection open
+八月 28, 2021 4:24:40 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connected
